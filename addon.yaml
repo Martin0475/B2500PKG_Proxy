@@ -1,0 +1,17 @@
+name: B2500PKG_Proxy
+version: "1.0"
+slug: b2500pkg_proxy
+description: MQTT-Proxy für Geräte mit gleicher Client-ID
+startup: services
+boot: auto
+ingress: false
+options:
+  devices:
+    - port: 1901
+      username: ""
+      password: ""
+schema:
+  devices:
+    - port: int
+      username: str?
+      password: str?
