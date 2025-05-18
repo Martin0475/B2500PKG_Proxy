@@ -1,6 +1,0 @@
-name: B2500PKG_Proxy
-options:
-  devices:
-    - port: 1901
-      username: ""
-      password: ""
